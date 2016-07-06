@@ -2,4 +2,26 @@
     <string name="app_name">MovieApp</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+
+    <string name="pref_title_change_sort_pref">Change Sort Preference</string>
+
+    <!-- Key name for storing sort preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_key" translatable="false">sort_pref</string>
+
+    <!-- Default sort param for sort preference [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_default" translatable="false">Most Popular</string>
+
+
+
+
+
+
+    <string name="title_activity_detail">Movie Detail</string>
 </resources>

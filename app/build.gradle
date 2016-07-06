@@ -17,6 +17,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    buildTypes.each {
+        it.buildConfigField 'String', 'TMDB_API_KEY', MyMovieDbApiKey
+    }
 }
 
 dependencies {
@@ -25,4 +28,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.0.0'
     compile 'com.android.support:design:24.0.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.android.support:support-v4:24.0.0'
 }
